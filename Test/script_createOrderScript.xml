@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<script name="Test.createOrderScript">
+  <label>createOrderScript</label>
+  <metaVersion>25</metaVersion>
+  <script><![CDATA[
+    var o = new Order("orderManagement.trainingOrder");
+    o.trainingDocument.customerId=5000;
+    o.trainingDocument.basketId=6000;
+    o.trainingDocument.billingAddress='india';
+    o.trainingDocument.billCycle="monthly";
+    o.trainingDocument.paymentMethod="creditCart";
+    o.trainingDocument.productCode="FTTH800Plan";
+    o.trainingDocument.productDesc="FTTH Triple Play Bundle 800 Plan";
+    o.save();
+  ]]></script>
+</script>

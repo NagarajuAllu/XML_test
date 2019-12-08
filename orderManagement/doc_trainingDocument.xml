@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document name="orderManagement.trainingDocument">
+  <dbSchema>ORDER</dbSchema>
+  <extends>doc_com.conceptwave.system.Document</extends>
+  <generatedKey>true</generatedKey>
+  <guid>{096929d4-77e3-4f35-8844-61002f02ff29}</guid>
+  <label>trainingDocument</label>
+  <metaVersion>25</metaVersion>
+  <variableList>
+    <variable name="cwDocId" type="leaf">
+      <column>CWDOCID</column>
+      <key>1</key>
+      <table>trainingDocument</table>
+      <valueType>dtype_cwf.cwDocId</valueType>
+    </variable>
+    <variable name="customerId" type="leaf">
+      <column>CUSTOMERID</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.customerId</valueType>
+    </variable>
+    <variable name="basketId" type="leaf">
+      <column>BASKETID</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.basketId</valueType>
+    </variable>
+    <variable name="billingAddress" type="leaf">
+      <column>BILLINGADDRESS</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.billingAddress</valueType>
+    </variable>
+    <variable name="paymentMethod" type="leaf">
+      <column>PAYMENTMETHOD</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.paymentMethod</valueType>
+    </variable>
+    <variable name="billCycle" type="leaf">
+      <column>BILLCYCLE</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.billCycle</valueType>
+    </variable>
+    <variable name="productCode" type="leaf">
+      <column>PRODUCTCODE</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.productCode</valueType>
+    </variable>
+    <variable name="productDesc" type="leaf">
+      <column>PRODUCTDESC</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.productDesc</valueType>
+    </variable>
+    <variable name="requestedDeliveryDate" type="leaf">
+      <column>REQUESTEDDELIVERYDATE</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.requestedDeliveryDate</valueType>
+    </variable>
+    <variable name="basketId1" type="leaf">
+      <column>BASKETID1</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_orderManagement.basketId</valueType>
+    </variable>
+    <variable name="cwOrderId" type="leaf">
+      <column>CWORDERID</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_cwf.cwOrderId</valueType>
+    </variable>
+    <variable name="cwParentId" type="leaf">
+      <column>CWPARENTID</column>
+      <table>trainingDocument</table>
+      <valueType>dtype_cwf.cwParentId</valueType>
+    </variable>
+  </variableList>
+</document>

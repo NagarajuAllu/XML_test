@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<order name="orderManagement.trainingOrder">
+  <extends>order_com.conceptwave.system.Order</extends>
+  <label>trainingOrder</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="trainingDocument" type="order">
+      <label>trainingDocument</label>
+      <mandatory>true</mandatory>
+      <orderItem>doc_orderManagement.trainingDocument</orderItem>
+      <orderType>document</orderType>
+    </child>
+  </childList>
+</order>
