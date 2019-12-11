@@ -1,3 +1,4 @@
+<!--file-->
 <?xml version="1.0" encoding="UTF-8" ?>
 <document name="orderManagement.trainingDocument">
   <dbSchema>ORDER</dbSchema>
@@ -7,6 +8,7 @@
   <label>trainingDocument</label>
   <metaVersion>25</metaVersion>
   <variableList>
+    <parent><child/></parent>
     <variable name="cwDocId" type="leaf">
       <column>CWDOCID</column>
       <key>1</key>
