@@ -23,7 +23,7 @@
       <table>trainingDocument</table>
       <valueType>dtype_orderManagement.basketId</valueType>
     </variable>
-    <variable name="billingAddress" type="leaf">
+    <variable 
       <column>BILLINGADDRESS</column>
       <table>trainingDocument</table>
       <valueType>dtype_orderManagement.billingAddress</valueType>
@@ -32,7 +32,7 @@
       <column>PAYMENTMETHOD</column>
       <table>trainingDocument</table>
       <valueType>dtype_orderManagement.paymentMethod</valueType>
-    </variable>
+    
     <variable name="billCycle" type="leaf">
       <column>BILLCYCLE</column>
       <table>trainingDocument</table>
